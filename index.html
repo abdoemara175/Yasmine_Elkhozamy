@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yasmine Elkhozamy - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Yasmine Elkhozamy - Flutter Developer & UI/UX Designer">
+  <meta property="og:description" content="Portfolio of Yasmine Elkhozamy, Flutter Developer and UI/UX Designer | IT Student">
+  <meta property="og:image" content="https://abdoemara175.github.io/Githubph-emara.jpg">
+  <meta property="og:url" content="https://abdoemara175.github.io">
+  <meta property="og:type" content="website">
+  <meta name="keywords" content="Yasmine Elkhozamy, Flutter Developer, UI/UX Designer, Mobile Developer, Dart, Firebase, Figma, IT Student">
+  <meta name="description" content="Portfolio of Yasmine Elkhozamy, Flutter Developer and UI/UX Designer. Explore my mobile apps, UI/UX designs, and technical skills.">
+  <meta name="author" content="Yasmine Elkhozamy">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Yasmine Elkhozamy - Portfolio">
+  <meta name="twitter:description" content="Flutter Developer | UI/UX Designer | IT Student">
+  <meta name="twitter:image" content="https://abdoemara175.github.io/Githubph-emara.jpg">
+  <link rel="icon" type="image/jpeg" href="Githubph-emara.jpg">
+</head>
+<body>
+
+  <!-- Loading Spinner -->
+  <div id="loadingSpinner" class="loading-spinner">
+    <div class="spinner-circle"></div>
+    <p class="loading-text">Loading...</p>
+  </div>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">
+        <img src="Githubph-emara.jpg" alt="Yasmine Elkhozamy - Profile Picture" class="nav-img" id="navImg">
+        <span class="nav-name" id="navName">Yasmine Elkhozamy</span>
+      </a>
+      <div class="nav-sections" id="navSections">
+        <a href="#about" class="nav-section-link">About</a>
+        <a href="#skills" class="nav-section-link">Skills</a>
+        <a href="#education" class="nav-section-link">Education</a>
+        <a href="#projects" class="nav-section-link">Projects</a>
+        <a href="#certificates" class="nav-section-link">Certificates</a>
+        <a href="#contact" class="nav-section-link">Contact</a>
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle light/dark mode">
+          <i class="fas fa-sun" id="themeIcon"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="section">
+    <div class="hero-content">
+      <div class="hero-image-container">
+        <img src="Githubph-emara.jpg" alt="Yasmine Elkhozamy - Flutter Developer & UI/UX Designer" class="hero-image" id="heroImg">
+      </div>
+      <div class="hero-text">
+        <h1 class="hero-name" id="heroName">Yasmine Elkhozamy</h1>
+        <h2 class="hero-title" id="heroTitle">
+          <div class="swipe-container"><span class="swipe-text" id="swipeText">Flutter Developer</span></div>
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section" data-section="About">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-story">
+          <h3 class="about-lead">I'm Yasmine Elkhozamy, an Information Technology student at Zagazig University, Faculty of Computers and Information.</h3>
+          <p>I specialize in building high-performance, cross-platform mobile applications using Flutter and Dart, powered by Firebase and modern state management architectures like Provider.</p>
+          <p>I also have a strong passion for UI/UX design, creating seamless user flows, wireframing, prototyping, and responsive design systems in Figma before translating them into clean, functional code.</p>
+          
+          <div class="about-tags">
+            <span class="tag"><i class="fas fa-mobile-alt"></i> Flutter Developer</span>
+            <span class="tag"><i class="fas fa-pen-nib"></i> UI/UX Designer</span>
+            <span class="tag"><i class="fas fa-university"></i> IT Student (2027)</span>
+            <span class="tag"><i class="fas fa-code"></i> Dart & C++</span>
+          </div>
+        </div>
+        
+        <div class="about-highlights">
+          <div class="glass-card">
+            <div class="card-icon"><i class="fas fa-cubes"></i></div>
+            <div class="card-info">
+              <span class="card-number">4+</span>
+              <span class="card-label">Mobile App Projects</span>
+            </div>
+          </div>
+          <div class="glass-card">
+            <div class="card-icon"><i class="fas fa-language"></i></div>
+            <div class="card-info">
+              <span class="card-number">C1</span>
+              <span class="card-label">English & Native Arabic</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section" data-section="Skills">
+    <div class="container">
+      <h2 class="section-title">Skills Summary</h2>
+      <div class="skills-categories-grid">
+        
+        <div class="skill-category-card">
+          <div class="category-header">
+            <i class="fas fa-code category-icon"></i>
+            <h3>Languages</h3>
+          </div>
+          <div class="skills-pill-list">
+            <span class="skill-pill"><i class="fas fa-terminal"></i> Dart</span>
+            <span class="skill-pill"><i class="fas fa-code"></i> C++</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <div class="category-header">
+            <i class="fas fa-layer-group category-icon"></i>
+            <h3>Frameworks</h3>
+          </div>
+          <div class="skills-pill-list">
+            <span class="skill-pill"><i class="fas fa-mobile-alt"></i> Flutter</span>
+            <span class="skill-pill"><i class="fas fa-fire"></i> Firebase</span>
+            <span class="skill-pill"><i class="fas fa-cubes"></i> Provider</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <div class="category-header">
+            <i class="fas fa-pen-nib category-icon"></i>
+            <h3>UI/UX Design</h3>
+          </div>
+          <div class="skills-pill-list">
+            <span class="skill-pill"><i class="fab fa-figma"></i> Figma</span>
+            <span class="skill-pill"><i class="fas fa-sitemap"></i> Wireframing</span>
+            <span class="skill-pill"><i class="fas fa-object-group"></i> Prototyping</span>
+            <span class="skill-pill"><i class="fas fa-project-diagram"></i> User Flow</span>
+            <span class="skill-pill"><i class="fas fa-desktop"></i> Responsive Design</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <div class="category-header">
+            <i class="fas fa-database category-icon"></i>
+            <h3>Databases</h3>
+          </div>
+          <div class="skills-pill-list">
+            <span class="skill-pill"><i class="fas fa-fire"></i> Firestore</span>
+            <span class="skill-pill"><i class="fas fa-hdd"></i> SharedPreferences</span>
+            <span class="skill-pill"><i class="fas fa-table"></i> SQLite</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <div class="category-header">
+            <i class="fas fa-tools category-icon"></i>
+            <h3>Tools & Environments</h3>
+          </div>
+          <div class="skills-pill-list">
+            <span class="skill-pill"><i class="fab fa-android"></i> Android Studio</span>
+            <span class="skill-pill"><i class="fas fa-code-branch"></i> VS Code</span>
+            <span class="skill-pill"><i class="fab fa-git-alt"></i> Git</span>
+            <span class="skill-pill"><i class="fab fa-github"></i> GitHub</span>
+            <span class="skill-pill"><i class="fas fa-cloud"></i> Firebase Console</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <div class="category-header">
+            <i class="fas fa-user-check category-icon"></i>
+            <h3>Soft Skills</h3>
+          </div>
+          <div class="skills-pill-list">
+            <span class="skill-pill"><i class="fas fa-lightbulb"></i> Problem Solving</span>
+            <span class="skill-pill"><i class="fas fa-users"></i> Teamwork</span>
+            <span class="skill-pill"><i class="fas fa-comments"></i> Communication</span>
+            <span class="skill-pill"><i class="fas fa-clock"></i> Time Management</span>
+            <span class="skill-pill"><i class="fas fa-search"></i> Attention to Detail</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section" data-section="Education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-content">
+        <div class="education-item">
+          <div class="education-body">
+            <div class="education-header">
+              <div class="education-info">
+                <h3 class="education-university">Zagazig University</h3>
+                <p class="education-faculty">Faculty of Computers and Information</p>
+                <p class="education-degree">Information Technology (IT)</p>
+              </div>
+              <div class="education-meta">
+                <span class="education-date">Expected Graduation: 2027</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section" data-section="Projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3 class="project-title"><i class="fas fa-coffee"></i> Coffayeen App</h3>
+              <a href="https://github.com/YasmineElkhuzamy/coffayeen" class="project-link" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+            <ul class="project-list">
+              <li>Designed and developed a modern coffee ordering application using Flutter and Firebase.</li>
+              <li>Implemented Firebase Authentication for secure user login and registration workflows.</li>
+              <li>Added Favorites and Cart functionalities utilizing State Management (Provider).</li>
+              <li>Built a responsive UI that adapts seamlessly across multiple screen sizes.</li>
+              <li>Designed the user interface in Figma prior to the development phase.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3 class="project-title"><i class="fas fa-tasks"></i> Todo App</h3>
+              <a href="https://github.com/YasmineElkhuzamy/ToDo" class="project-link" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+            <ul class="project-list">
+              <li>Developed a task management application with full CRUD operations.</li>
+              <li>Utilized SharedPreferences for efficient local storage and rapid task retrieval.</li>
+              <li>Implemented features to track and update task status efficiently.</li>
+              <li>Designed a clean, intuitive, and user-friendly interface.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3 class="project-title"><i class="fas fa-kaaba"></i> Islamic App</h3>
+              <a href="https://github.com/YasmineElkhuzamy/islamicapp" class="project-link" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+            <ul class="project-list">
+              <li>Built an Islamic application featuring a Quran API and Hadith API for accessing religious texts.</li>
+              <li>Integrated a Radio Streaming feature for live audio broadcasting.</li>
+              <li>Developed a digital Tasbeeh Counter and integrated comprehensive prayer features.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="section" data-section="Certificates">
+    <div class="container">
+      <h2 class="section-title">Certificates</h2>
+      <div class="certificates-grid">
+        
+        <a href="https://drive.google.com/file/d/1Upxqca5QPzrYHPsBt15mBo-uP9mPRgI_/view?usp=drivesdk" class="certificate-card" target="_blank" rel="noopener noreferrer">
+          <div class="certificate-header">
+            <h3 class="certificate-title">
+              <span><i class="fas fa-certificate"></i> Flutter Course</span>
+              <i class="fas fa-external-link-alt certificate-link-icon"></i>
+            </h3>
+          </div>
+          <p>Gained comprehensive knowledge in building cross-platform mobile applications using Flutter and Dart.</p>
+        </a>
+
+        <a href="https://drive.google.com/file/d/1nWmNhSGAMXybRpe64EaSPjyJ2znQMFXP/view?usp=drivesdk" class="certificate-card" target="_blank" rel="noopener noreferrer">
+          <div class="certificate-header">
+            <h3 class="certificate-title">
+              <span><i class="fas fa-certificate"></i> UI/UX Course</span>
+              <i class="fas fa-external-link-alt certificate-link-icon"></i>
+            </h3>
+          </div>
+          <p>Acquired skills in wireframing, prototyping, and designing user-centric interfaces using industry tools like Figma.</p>
+        </a>
+
+        <a href="https://drive.google.com/file/d/1CbI4nH7WS5xJdtaSkevOskJh7GNemjtN/view?usp=drivesdk" class="certificate-card" target="_blank" rel="noopener noreferrer">
+          <div class="certificate-header">
+            <h3 class="certificate-title">
+              <span><i class="fas fa-certificate"></i> Fundamentals of Programming</span>
+              <i class="fas fa-external-link-alt certificate-link-icon"></i>
+            </h3>
+          </div>
+          <p>Mastered core programming concepts, problem-solving techniques, and foundational logic in software development.</p>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section" data-section="Contact">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-grid">
+        <a href="mailto:yasssmmminnnm@gmail.com" class="contact-card" target="_blank">
+          <div class="contact-icon-box email">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <span>Email</span>
+        </a>
+        <a href="tel:01221741380" class="contact-card" target="_blank">
+          <div class="contact-icon-box phone">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <span>01221741380</span>
+        </a>
+        <a href="https://linkedin.com" class="contact-card" target="_blank">
+          <div class="contact-icon-box linkedin">
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/YasmineElkhuzamy" class="contact-card" target="_blank">
+          <div class="contact-icon-box github">
+            <i class="fab fa-github"></i>
+          </div>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Yasmine Elkhozamy — All rights reserved</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
